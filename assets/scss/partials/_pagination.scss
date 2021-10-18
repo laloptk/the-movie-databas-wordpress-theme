@@ -1,0 +1,21 @@
+.pagination {
+	text-align: center;
+
+	div {
+		display: inline-block;
+		padding: 5px;
+		font-size: 20px;
+
+		&:hover {
+			a {
+				opacity: 0.6;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: #000000;
+			transition: all 0.5s;
+		}
+	}
+}

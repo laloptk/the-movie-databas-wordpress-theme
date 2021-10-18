@@ -1,0 +1,98 @@
+.movie-detail {
+	h1 {
+		font-size: 52px;
+		text-align: center;
+	}
+
+	&__poster {
+		text-align: center;
+
+		img {
+			display: inline-block;
+		}
+	}
+
+	.video {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-bottom: 56.25%;
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		> li {
+			display: inline-block;
+			padding: 10px 15px;
+			border-radius: 5px;
+			font-size: 20px;
+			font-weight: 700;
+			background-color: #eaeaea;
+			margin-bottom: 5px;
+		}
+	}
+
+	&__overwiew {
+		p {
+			font-size: 20px;
+		}
+	}
+
+	&__production-companies {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			> li {
+				width: 32%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				padding: 40px 20px;
+
+				img {
+					margin-bottom: 20px;
+					max-height: 100px;
+				}
+			}
+		}
+	}
+
+	&__meta {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		> div {
+			width: 31%;
+			margin: 50px 1%;
+			background-color: #eaeaea;
+			text-align: center;
+			padding: 25px;
+		}
+	}
+
+	&__reviews {
+		.review {
+			padding: 40px;
+
+			&:nth-child(2n + 2) {
+				background-color: #eaeaea;
+			}
+		}
+	}
+}

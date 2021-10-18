@@ -1,0 +1,49 @@
+.site-header {
+	.flex {
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.site-branding {
+		display: block;
+		width: 40%;
+	}
+
+	.site-description {
+		display: none;
+	}
+
+	.site-title {
+		a {
+			font-size: 38px;
+			font-weight: 700;
+			text-decoration: none;
+			&:visited {
+				color: #000000;
+			}
+		}
+	}
+
+	#site-navigation {
+		display: inline-block;
+
+		ul {
+			float: right;
+
+			> li {
+				padding: 15px;
+
+				a {
+					font-size: 20px;
+					font-weight: 700;
+					color: #000000;
+
+					&:visited {
+						color: #000000;
+					}
+				}
+			}
+		}
+	}
+}

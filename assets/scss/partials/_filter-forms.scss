@@ -1,0 +1,27 @@
+#actors-filters,
+#movies-filter {
+	input,
+	select {
+		height: 60px;
+		border: 2px solid #000000;
+		border-radius: 5px;
+		margin-right: 20px;
+		margin-bottom: 50px;
+		padding: 15px;
+	}
+
+	input[type="submit"] {
+		padding-right: 30px;
+		padding-left: 30px;
+		background-color: #000000;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	label {
+		font-weight: 700;
+		font-size: 28px;
+		margin-right: 10px;
+	}
+}

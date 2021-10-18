@@ -1,0 +1,20 @@
+.actor {
+	&__image {
+		text-align: center;
+
+		img {
+			display: inline-block;
+		}
+	}
+
+	.imgs-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.imgs-grid__item {
+			width: 23%;
+			margin: 20px 1%;
+		}
+	}
+}
